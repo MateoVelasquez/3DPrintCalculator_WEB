@@ -3,8 +3,9 @@ import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
-import config
+from config import set_environtment_config
 
+set_environtment_config()
 db = SQLAlchemy()
 
 
