@@ -4,11 +4,10 @@ Script para ejecutar el aplicativo
 from flask_migrate import Migrate
 
 from app import create_app, db
-from app import models
 
 
 app = create_app()
-migrate = Migrate(app,db)
+migrate = Migrate(app, db)
 
 
 if __name__ == '__main__':
