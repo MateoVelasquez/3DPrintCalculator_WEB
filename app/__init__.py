@@ -16,5 +16,6 @@ def create_app():
     db.init_app(app)
 
     with app.app_context():
-        # Blueprints
+        from .routers import calculator_api
+        app.register_blueprint(calculator_api)
         return app
