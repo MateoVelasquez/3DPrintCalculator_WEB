@@ -2,12 +2,17 @@
 
 Modulo con las rutas de la API
 """
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, render_template, request
 from .models import CfgParameters
 from app import db, calculator_core
 
 
 calculator_api = Blueprint('calculator_api', __name__)
+
+
+@calculator_api.route('/', methods=['GET'])
+def index():
+    return render_template('index.html')
 
 
 @calculator_api.route('/api/cfgparameters', methods=['GET', 'POST'])
