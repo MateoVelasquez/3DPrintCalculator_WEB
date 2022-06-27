@@ -1,0 +1,40 @@
+name: cal_env
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - alembic=1.8.0
+  - bzip2=1.0.8
+  - ca-certificates=2022.5.18.1
+  - certifi=2022.5.18.1
+  - click=8.0.4
+  - colorama=0.4.4
+  - dataclasses=0.8
+  - flask=2.0.3
+  - flask-migrate=3.1.0
+  - flask-sqlalchemy=2.5.1
+  - greenlet=1.1.1
+  - importlib-metadata=4.11.4
+  - importlib_resources=5.7.1
+  - itsdangerous=2.0.1
+  - jinja2=3.0.3
+  - libffi=3.4.2
+  - mako=1.2.0
+  - markupsafe=2.1.1
+  - openssl=1.1.1o
+  - pip=21.2.4
+  - python=3.10.4
+  - python-dotenv=0.20.0
+  - python_abi=3.10
+  - setuptools=61.2.0
+  - sqlalchemy=1.4.32
+  - sqlite=3.38.2
+  - tk=8.6.12
+  - tzdata=2022a
+  - werkzeug=2.0.3
+  - wheel=0.37.1
+  - xz=5.2.5
+  - zipp=3.8.0
+  - zlib=1.2.12
+prefix: D:\miniconda3\envs\cal_env
